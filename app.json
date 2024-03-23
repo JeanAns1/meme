@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "meme-generator",
+    "slug": "meme-generator",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#C30052"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#C30052"
+      },
+      "package": "com.supersimon.memecreator"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
